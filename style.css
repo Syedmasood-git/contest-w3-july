@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: white;
+}
+.navbar{
+    padding-inline: 100px;
+}
+.carousel-iinner{
+    width: 100%;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.div-1{
+    width:400px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.container-1{
+    display: grid;
+    width: 85%;
+    height: 60vh;
+    grid-template-columns: repeat(9,100px);
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas: 
+    "a a a b b c c d d d"
+    "a a a e e f f g g g"
+    "i i i j j j j j j j"
+    "i i i j j j j j j j";
+    grid-gap: 10px;
+    margin-left: 110px;
+    overflow: hidden;
+}
+.item-1>img,.item-2>img,.item-3>img,.item-4>img,.item-5>img,.item-6>img,.item-7>img,.item-8>img,.item-9>img{
+    width: 100%;
+    height: 100%;
+}
+.item-1{
+    background-color: orange;
+    grid-area: a;
+    overflow: hidden;
+}
+.item-2{
+    background-color: darkcyan;
+    grid-area: b;
+    overflow: hidden;
+}
+.item-3{
+    background-color: yellowgreen;
+    grid-area: c;
+    overflow: hidden;
+}
+.item-4{
+    background-color: black;
+    grid-area: d;
+    overflow: hidden;
+}
+.item-5{
+    background-color: yellow;
+    grid-area: e;
+    overflow: hidden;
+}
+.item-6{
+    background-color: white;
+    grid-area: f;
+    overflow: hidden;
+}
+.item-7{
+    background-color: purple;
+    grid-area: g;
+    overflow: hidden;
+}
+.item-8{
+    background-color: pink;
+    grid-area: i;
+    overflow: hidden;
+}
+.item-9{
+    background-color: red;
+    grid-area: j;
+    overflow: hidden;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.card{
+    margin: 20px;
+    
+}
+footer{
+    background-color: whitesmoke;
+}footer ul{
+    text-decoration: none;
+    list-style: none;
+}
+.foot-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.copy{
+    margin-left: 200px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1{
+    margin-right: 200px;
+    border: none;
+    background-color: #0d6efd;
+    border: 1px solid transparent;
+    width: 150px!important;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+}
+.card{
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+}
